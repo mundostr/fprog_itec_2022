@@ -29,6 +29,7 @@ int main() {
 	// según lo que ingresemos por consola.
 	suma = nro1 + nro2;
 
+	// endl inserta un salto de línea
 	cout << "El valor de la suma: " << suma << endl;
 	
 	return 0;
