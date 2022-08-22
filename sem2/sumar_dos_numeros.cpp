@@ -11,17 +11,17 @@ int main() {
 	int nro1 = 0;
 	int nro2 = 0;
 	int suma = 0;
-	
+
 	// Definimos e inicializamos a 3.14 una constante (const) llamada PI, de tipo flotante (float)
 	const float PI = 3.14;
 	
 	// Las siguientes 4 líneas están comentadas
 	// Los comentarios son líneas que inician con doble barra, solo existen en el código fuente
 	// NO se tienen en cuenta en la compilación final
-	// cout << "Ingresar n1: ";
-	// cin >> nro1;
-	// cout << "Ingresar n2: ";
-	// cin >> nro2;
+	cout << "Ingresar n1: ";
+	cin >> nro1;
+	cout << "Ingresar n2: ";
+	cin >> nro2;
 
 	// Como hemos comentado las líneas para ingreso por consola, suma quedará en 0, ya que nro1 y nro2
 	// fueron inicializadas también en 0.
