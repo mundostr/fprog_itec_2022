@@ -3,7 +3,7 @@
 ### ITEC - Fundación Instituto Tecnológico Rafaela
 ### Curso Fundamentos de Programación 2022 - grupo Rafaela
 
-### Resumen IDEs
+### RESUMEN IDEs
 
 Como mencionamos, existen muchas opciones de entornos de desarrollo para C/C++. Hemos comenzado con **Dev C++**, ya que es una alternativa muy rápida y directa de instalación, pero veremos también otras dos alternativas con las cuales trabajar:
 
@@ -14,7 +14,7 @@ Si bien los nombres son muy similares -y en ambos casos se trata de productos de
 
 VSC ocupará mucho menos espacio en disco y será más liviano en general para trabajar, no obstante VS será muy completo y permitirá gestionar ciertos ajustes de manera más automática. Por supuesto, en cualquiera de los dos es simple probar y desinstalar si el sistema no cumple las expectativas o simplemente ya no se lo necesita.
 
-VISUAL STUDIO CODE PARA C++ BAJO WINDOWS:
+### VISUAL STUDIO CODE PARA C++ BAJO WINDOWS:
 
 1. **Instalar compilador C++**: en una instalación tradicional de Windows, no se encuentran todas las herramientas necesarias para la compilación de código C++, por ende lo primero que haremos es instalar un set de estos programas. Descargar el archivo llamado mingw64.zip desde la carpeta instaladores en este mismo repo, y extraerlo en una nueva carpeta en la máquina local, con el nombre que se desee. Tomar nota de este nombre, por ejemplo C:\mingw64.
 
@@ -71,8 +71,7 @@ A partir de este momento, cualquier archivo de C++ (extensión .cpp) creado en e
 
 Para ejecutar dentro del mismo VSC, puede abrirse una consola (Ver -> Terminal / View -> Terminal) estando en la carpeta correspondiente, escribir el nombre del archivo exe y presionar ENTER para ejecutarlo.
 
-
-VISUAL STUDIO COMMUNITY PARA C++ BAJO WINDOWS:
+### VISUAL STUDIO COMMUNITY PARA C++ BAJO WINDOWS:
 
 El instalador oficial de la versión Community, se puede obtener desde la página de Microsoft: https://visualstudio.microsoft.com/es/vs/community/, y a partir de allí, seguir las instrucciones para la instalación. El propio sistema cuenta con un gestor que permitirá instalar o desinstalar módulos para acondicionar el entorno a lo que se necesite, como por ejemplo la escritura de C++ en este caso.
 
