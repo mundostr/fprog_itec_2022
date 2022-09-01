@@ -8,6 +8,7 @@ int main() {
     const int MAX_PERSONAS = 20;
     const int LIMITE_CUENTA = 30;
     const int DIVISOR_1 = 8;
+    const int DIVISOR_2 = 11;
 
     // Variables
     int cuenta = 0;
@@ -44,6 +45,15 @@ int main() {
 
         if (cuenta % DIVISOR_1 == 0) {
             giro_horario = !giro_horario;
+        }
+
+        if (cuenta % DIVISOR_2 == 0) {
+            // if (giro_horario == true) {
+            if (giro_horario) {
+                persona_actual = persona_actual + 1;
+            } else {
+                persona_actual = persona_actual - 1;
+            }
         }
     }
 
