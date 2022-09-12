@@ -3,7 +3,6 @@ Práctica de ordenamiento manual y automático de matriz
 */
 
 #include <iostream>
-#include <algorithm>
 
 using namespace std;
 
