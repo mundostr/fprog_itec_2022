@@ -42,6 +42,8 @@ En esta carpeta general, crear una llamada ".vscode" (sin las comillas, notar el
             "label": "C/C++: g++.exe compilar archivo activo",
             "command": "C:\\mingw64\\bin\\g++.exe",
             "args": [
+                "--std",
+                "c++17",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
