@@ -14,7 +14,8 @@ int main() {
     int indice_menor = 0;
     bool intercambiar = false;
 
-    sort(begin(mtr_lecturas), end(mtr_lecturas));
+    sort(begin(mtr_lecturas), end(mtr_lecturas)); // ascendente, predeterminado
+    // sort(begin(mtr_lecturas), end(mtr_lecturas), greater<int>()); // descendente
 
     // while(indice < size(mtr_lecturas)) {
     //     int menor = mtr_lecturas[indice];
