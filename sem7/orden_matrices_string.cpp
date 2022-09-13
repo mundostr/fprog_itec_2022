@@ -15,7 +15,8 @@ int main() {
     int indice_menor = 0;
     bool intercambiar = false;
 
-    sort(mtr_nombres.begin(), mtr_nombres.end());
+    sort(mtr_nombres.begin(), mtr_nombres.end()); // A-Z predeterminado
+    // sort(mtr_nombres.begin(), mtr_nombres.end(), greater<string>()); // Z-A
 
     for (string nombre: mtr_nombres) {
         printf("%s, ", nombre.c_str());
