@@ -1,0 +1,57 @@
+body {
+    color: #fff;
+    background: #333;
+    padding: 16px;
+}
+
+h1 {
+    color: #39c;
+}
+
+button {
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    color: #333;
+    background-color: #fc0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 3em;
+}
+
+.secundario {
+    color: #333;
+    background-color: #fc0;
+    padding: 8px;
+}
+
+.capa_semaforo {
+    width: 240px;
+    margin: 0 auto;
+    background-color: #999;
+    border: solid 2px #666;
+    border-radius: 32px;
+    padding: 32px;
+    background-size: contain;
+}
+
+.capa_luz {
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    background-color: #000;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    margin-bottom: 16px;
+}
+
+.btn_modo {
+    width: 304px;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 8px;
+    font-size: 2em;
+    font-weight: bold;
+}
