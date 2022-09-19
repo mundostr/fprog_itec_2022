@@ -75,3 +75,4 @@ function ciclar_luz_nocturno() {
 }
 
 // Flujo principal
+inicializar_websocket();
