@@ -44,6 +44,20 @@ void comparar_jugadas() {
         switch(opcion_maq) {
             case 1: // Maq Piedra
                 resultado = opcion_jug == 2 ? "Gana jugador" : "Gana maquina";
+                /*
+                Esta es una forma compacta de asignar un valor a una variable, de acuerdo
+                a una condición. Es equivalente a:
+
+                opcion_jug == 2 ? resultado = "Gana jugador" : resultado = "Gana maquina";
+
+                o bien la típica:
+
+                if (opcion_jug == 2) {
+                    resultado = "Gana jugador";
+                } else {
+                    resultado = "Gana maquina";
+                }
+                */
                 break;
             
             case 2: // Maq Papel
