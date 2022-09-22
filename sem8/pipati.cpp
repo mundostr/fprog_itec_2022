@@ -81,6 +81,7 @@ void mostrar_ganador() {
 }
 
 // El flujo principal consta simplemente de las llamadas a las distintas funciones
+// en el orden correspondiente
 int main() {
     mostrar_opciones();
     hacer_jugar_maquina();
